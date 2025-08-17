@@ -22,7 +22,10 @@ Kullanıcı ve video verileri CSV dosyaları (`user.csv`, `video.csv`) üzerinde
 
 ---
 
+
 ## 📂 Dosya Yapısı
+
+```plaintext
 video_manager/
 ├─ sayfa1.php      → Ana sayfa / giriş
 ├─ sayfa2.php      → Video listeleme / görüntüleme
