@@ -1,40 +1,19 @@
-# MisGibiApp
+# Video Manager
 
-**MisGibiApp**, temizlik hizmetlerini kullanıcılarla buluşturan bir mobil uygulamadır.  
-Uygulama sayesinde kullanıcılar çevredeki temizlikçileri listeleyebilir, fiyat ve puanlarını görebilir, teklif verebilir ve hızlıca hizmet alabilirler.  
+**Video Manager**, PHP, HTML ve CSS kullanılarak geliştirilmiş bir web tabanlı video yönetim sistemidir.  
+Kullanıcıların video yükleme, görüntüleme ve yönetim işlemlerini kolaylaştırmak için tasarlanmıştır.  
 
 ## 🚀 Özellikler
-- 👤 **Çift taraflı giriş sistemi:** Kullanıcı kaydı **Müşteri** veya **Temizlikçi** olarak yapılabilir.  
-- 📍 **Yakındaki temizlikçileri listeleme:** Konuma göre filtreleme (Google Maps API entegrasyonu planlanıyor).  
-- ⭐ **Puan ve yorum sistemi:** Kullanıcılar temizlikçileri puanlayabilir ve yorum bırakabilir.  
-- 💸 **Fiyat & teklif:** Müşteriler temizlikçilerden fiyat teklifleri alabilir.  
-- 🔐 **Güvenli giriş:** Kullanıcı kimlik doğrulama sistemi (JWT / Firebase Auth gibi çözümler planlanıyor).  
-- 📱 **Cross-platform destek:** Expo sayesinde **hem iOS hem Android** cihazlarda çalışır.  
+- 📤 Video yükleme ve listeleme
+- ▶️ Video oynatma
+- 📝 Kullanıcı dostu arayüz (HTML + CSS)
+- 📱 Responsive tasarım (mobil uyumlu)
+- ✅ Yazılım testleri ve dökümantasyon süreçleri (manual test senaryoları hazırlanmıştır)
 
 ## 🛠 Kullanılan Teknolojiler
-### Frontend
-- [React Native](https://reactnative.dev/) (Expo ile)  
-- React Navigation  
-- Expo Location (yakındaki temizlikçileri bulmak için)  
-- Axios / Fetch API  
+- **Backend:** PHP
+- **Frontend:** HTML5, CSS3
+- **Veritabanı:** (MySQL veya kullandıysan belirt → örn. MySQL)
+- **Test:** Manual test senaryoları + dökümantasyon
 
-### Backend (planlanan)
-- [Flutter](https://flutter.dev/)  
-- REST API (JSON tabanlı iletişim)  
-
-## 📲 Kurulum (Expo ile)
-
-Projeyi yerel bilgisayarda çalıştırmak için:  
-
-```bash
-# Repoyu klonlayın
-git clone https://github.com/Melikehacibekiroglu/MisGibiApp.git
-
-# Proje klasörüne girin
-cd MisGibiApp
-
-# Bağımlılıkları yükleyin
-npm install
-
-# Expo geliştirme sunucusunu başlatın
-npx expo start
+## 📂 Proje Yapısı
