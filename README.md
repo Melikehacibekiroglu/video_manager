@@ -21,6 +21,10 @@ Kullanıcı ve video verileri CSV dosyaları (`user.csv`, `video.csv`) üzerinde
 - **Veri Kaynağı:** CSV dosyaları (`user.csv`, `video.csv`)  
 
 ---
+## ⚙️ Kurulum
+1. Repoyu bilgisayarınıza klonlayın:
+   ```bash
+   git clone https://github.com/Melikehacibekiroglu/video_manager.git
 
 
 ## 📂 Dosya Yapısı
@@ -38,7 +42,3 @@ video_manager/
 
 ---
 
-## ⚙️ Kurulum
-1. Repoyu bilgisayarınıza klonlayın:
-   ```bash
-   git clone https://github.com/Melikehacibekiroglu/video_manager.git
