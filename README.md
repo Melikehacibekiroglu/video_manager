@@ -1,30 +1,37 @@
 # Video Manager
 
-**Video Manager**, PHP, HTML ve CSS kullanılarak geliştirilmiş bir web tabanlı video yönetim uygulamasıdır.  
-Uygulamanın amacı kullanıcıların videolarını yükleyebilmesi, listeleyebilmesi ve oynatabilmesini sağlamaktır.  
-Projenin tüm test ve dokümantasyon süreçleri tarafımdan hazırlanmıştır.  
+**Video Manager**, PHP ve CSS kullanılarak geliştirilmiş basit bir video yönetim uygulamasıdır.  
+Uygulama; kullanıcıların video bilgilerini görüntülemesini, yönetmesini ve temel CRUD işlemlerini yapabilmesini sağlar.  
+Kullanıcı ve video verileri CSV dosyaları (`user.csv`, `video.csv`) üzerinde tutulmaktadır.  
 
 ---
 
 ## 🚀 Özellikler
-- 📤 Video yükleme  
-- 📂 Yüklenen videoları listeleme  
-- ▶️ Video oynatma  
-- 🗑️ Video silme (opsiyonel)  
-- 📱 Responsive tasarım (mobil uyumlu arayüz)  
-- ✅ Test senaryoları ve dokümantasyon desteği  
+- 👤 Kullanıcı yönetimi (user.csv üzerinden kayıt ve bilgiler)  
+- 🎬 Video yönetimi (video.csv üzerinden ekleme, silme, listeleme)  
+- 🖥️ PHP tabanlı backend  
+- 🎨 CSS ile temel arayüz tasarımı  
+- 📱 Basit ve responsive görünüm  
 
 ---
 
-## 🛠 Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 - **Backend:** PHP  
-- **Frontend:** HTML5, CSS3  
-- **Veritabanı:** MySQL (isteğe bağlı entegrasyon)  
-- **Test:** Manual test senaryoları + dokümantasyon  
+- **Frontend:** CSS  
+- **Veri Kaynağı:** CSV dosyaları (`user.csv`, `video.csv`)  
 
 ---
 
-## 📂 Proje Yapısı
+## 📂 Dosya Yapısı
+/video_manager
+├── sayfa1.php # Ana sayfa / giriş sayfası
+├── sayfa2.php # Video listeleme / görüntüleme
+├── sayfa3.php # Video ekleme
+├── sayfa4.php # Video silme / yönetim
+├── sayfa.css # Arayüz stilleri
+├── user.csv # Kullanıcı verileri
+├── video.csv # Video verileri
+└── README.md # Proje dokümantasyonu
 
 ---
 
