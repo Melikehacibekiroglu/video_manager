@@ -23,15 +23,15 @@ Kullanıcı ve video verileri CSV dosyaları (`user.csv`, `video.csv`) üzerinde
 ---
 
 ## 📂 Dosya Yapısı
-/video_manager
-├── sayfa1.php # Ana sayfa / giriş sayfası
-├── sayfa2.php # Video listeleme / görüntüleme
-├── sayfa3.php # Video ekleme
-├── sayfa4.php # Video silme / yönetim
-├── sayfa.css # Arayüz stilleri
-├── user.csv # Kullanıcı verileri
-├── video.csv # Video verileri
-└── README.md # Proje dokümantasyonu
+video_manager/
+├─ sayfa1.php      → Ana sayfa / giriş
+├─ sayfa2.php      → Video listeleme / görüntüleme
+├─ sayfa3.php      → Video ekleme
+├─ sayfa4.php      → Video silme / yönetim
+├─ sayfa.css       → Arayüz stilleri
+├─ user.csv        → Kullanıcı verileri
+├─ video.csv       → Video verileri
+└─ README.md       → Proje dokümantasyonu
 
 ---
 
