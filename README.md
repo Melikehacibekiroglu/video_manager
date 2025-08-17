@@ -1,32 +1,40 @@
-# Video Admin Projesi
+# MisGibiApp
 
-PHP tabanlı YouTube video yönetim sistemi.  
-Videoları listeleyebilir, ekleyebilir, güncelleyebilir ve silebilirsiniz.
+**MisGibiApp**, temizlik hizmetlerini kullanıcılarla buluşturan bir mobil uygulamadır.  
+Uygulama sayesinde kullanıcılar çevredeki temizlikçileri listeleyebilir, fiyat ve puanlarını görebilir, teklif verebilir ve hızlıca hizmet alabilirler.  
 
----
+## 🚀 Özellikler
+- 👤 **Çift taraflı giriş sistemi:** Kullanıcı kaydı **Müşteri** veya **Temizlikçi** olarak yapılabilir.  
+- 📍 **Yakındaki temizlikçileri listeleme:** Konuma göre filtreleme (Google Maps API entegrasyonu planlanıyor).  
+- ⭐ **Puan ve yorum sistemi:** Kullanıcılar temizlikçileri puanlayabilir ve yorum bırakabilir.  
+- 💸 **Fiyat & teklif:** Müşteriler temizlikçilerden fiyat teklifleri alabilir.  
+- 🔐 **Güvenli giriş:** Kullanıcı kimlik doğrulama sistemi (JWT / Firebase Auth gibi çözümler planlanıyor).  
+- 📱 **Cross-platform destek:** Expo sayesinde **hem iOS hem Android** cihazlarda çalışır.  
 
-## Özellikler
+## 🛠 Kullanılan Teknolojiler
+### Frontend
+- [React Native](https://reactnative.dev/) (Expo ile)  
+- React Navigation  
+- Expo Location (yakındaki temizlikçileri bulmak için)  
+- Axios / Fetch API  
 
-- YouTube video linklerini kaydetme  
-- Video başlığı ile listeleme  
-- Video güncelleme  
-- Video silme  
-- Video kayıt ve güncelleme tarih bilgisini otomatik kaydetme  
-- Basit kullanıcı oturumu (session) ile koruma  
+### Backend (planlanan)
+- [Flutter](https://flutter.dev/)  
+- REST API (JSON tabanlı iletişim)  
 
----
+## 📲 Kurulum (Expo ile)
 
-## Gereksinimler
-
-- PHP 7.4 veya üzeri  
-- Apache / Nginx veya XAMPP, WAMP gibi lokal web sunucusu  
-- Yazma izinli klasör (video.csv dosyası için)
-
----
-
-## Kurulum
-
-1. **Projeyi klonlayın veya ZIP olarak indirin:**
+Projeyi yerel bilgisayarda çalıştırmak için:  
 
 ```bash
-git clone https://github.com/kullaniciadi/proje-adi.git
+# Repoyu klonlayın
+git clone https://github.com/Melikehacibekiroglu/MisGibiApp.git
+
+# Proje klasörüne girin
+cd MisGibiApp
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Expo geliştirme sunucusunu başlatın
+npx expo start
